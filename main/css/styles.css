@@ -1,0 +1,180 @@
+/*remove all default styles applied by browser*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    background-color:gray;
+}
+
+.main_wrapper {
+    width:1000px;
+    height:auto;
+    margin:auto;
+    background-color:gray;
+}
+
+.header_wrapper {
+    width:1000px;
+    height:100px;
+    margin:auto;
+}
+
+#logo {
+    float:left;
+    width:500px;
+    height:200px;
+}
+#banner {
+    float:right;
+    width:500px;
+    height:200px;
+}
+
+.menubar {
+    width:1000px;
+    height:50px;
+    background-color: gray;
+    color:white;
+}
+
+#menu {
+    padding:0;
+    margin:0;
+    line-height:40px;
+    float:left;
+}
+
+#menu li {
+    list-style: none;
+    display: inline;
+}
+ #menu a{
+     text-decoration: none;
+     color:white;
+     padding:8px;
+     margin:5px;
+     font-size:18px;
+     font-family: "Apple Chancery";
+}
+
+ #menu a:hover {
+     color:red;
+     font-weight:bolder;
+     text-decoration:underline;
+ }
+
+ #form {
+     float:right;
+     padding-right:8px;
+     line-height:50px;
+ }
+
+.content_wrapper {
+    width:1000px;
+    height:auto;
+    margin:auto;
+    background-color: deeppink;
+}
+
+#content_area {
+    width:800px;
+    height:auto;
+    float:right;
+    background-color: deeppink;
+}
+
+#sidebar {
+    width:200px;
+    height:800px;
+    background-color:gray;
+    color:white;
+    float:left;
+}
+
+#sidebar_title {
+    background-color: white;
+    color:black;
+    font-size:22px;
+    text-align: center;
+    text-decoration:none;
+    padding:10px;
+    font-family:"Comic Sans MS";
+}
+/*categories*/
+#cats {
+    text-align:center;
+}
+
+cats li {
+    list-style:none;
+    margin:10px;
+}
+
+#cats a {
+    color:white;
+    padding:8px;
+    margin:5px;
+    text-align: center;
+    font-size:22px;
+    text-decoration: none;
+    font-family:"Comic Sans MS"
+}
+
+#cats a:hover {
+    color:red;
+    font-weight:bolder;
+    text-decoration:underline;
+}
+
+#products_box {
+    width:780px;
+    text-align:center;
+    margin-left:30px;
+    margin-bottom:10px;
+}
+
+#single_product {
+    float:left;
+    margin-left:30px;
+    padding:10px;
+}
+
+#single_product img {
+    border:2px solid black;
+}
+
+#shopping_cart {
+    width:800px;
+    height:50px;
+    padding:10px;
+    background-color:black;
+    color:white;
+}
+
+#footer {
+    width:1000px;
+    height:100px;
+    background-color:grey;
+    clear:both;
+}
